@@ -25,16 +25,16 @@ nav ul li {
     padding: 10px;
     margin:0;
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
 nav ul li:last-child {
     position: fixed;
     bottom: 0px;
     right: 0px;
     background-color: #000000;
-    border: 3px solid #ffffff;
-}
-ul{
-    margin: 0;
-    padding: 0;
+    border: 1px solid #ffffff;
 }
 figure {
     text-align: center;
