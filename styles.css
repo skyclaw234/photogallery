@@ -1,4 +1,4 @@
-/*Mobile First*/
+/* Mobile First */
 html, nav {
     background-color: #000000;
 }
@@ -17,8 +17,8 @@ nav {
     padding-bottom: 25px;
 }
 nav ul {
-    list-style: none;
     display: flex;
+    list-style: none;
     justify-content: center;
 }
 nav ul li {
@@ -133,11 +133,15 @@ fieldset{
     font-weight: bold;
     padding: 15px;
 }
-#contact h2, #contact p {
+#contact h2 {
     text-align: center;
     color: #ffffff;
 }
-/*Dynamic*/
+#contact p{
+    text-align: center;
+    color: #ffffff;
+}
+/* Dynamic */
 @media screen and (min-width:880px){
     body {
         width: 880px;
